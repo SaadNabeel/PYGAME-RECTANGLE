@@ -19,7 +19,7 @@ colors = {
 }
 current_color = colors['white']
 
-clock = pygame.time.Clock()
+
 
 while not done:
     for event in pygame.event.get():
@@ -58,6 +58,6 @@ while not done:
     pygame.draw.circle(window, GREEN, (100, 100), 50, 3)
 
     pygame.display.flip()
-    clock.tick(60)
+   
 
 pygame.quit()
